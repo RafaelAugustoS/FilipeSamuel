@@ -1,0 +1,138 @@
+*,*:before, *:after{
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header{
+	width: 100%;
+	float: left;
+	background: #666;
+	height: 45px;
+}
+
+.menu{
+	float: left;
+	width: 250px;
+	background: #666;
+	height: calc(100% - 45px);
+}
+
+.menu ul li{
+	list-style: none;
+	padding: 10px;
+	float: left;
+	width: calc(100% - 20px);
+	color: #FFF;
+	border-bottom: 1px solid black;
+
+}
+
+.content{
+	float: left;
+	width: calc(100% - 300px);
+	padding: 20px;
+}
+
+.marcador{
+	width: 100%;
+	float: left;
+	height: 30px;
+	background: #F5F5F5;
+	line-height: 30px;
+	padding-left: 5px;
+}
+
+.box{
+	width: 100%;
+	float: left;
+	border: 1px solid #CCC;
+	margin-top: 25px;
+	background: #F5F5F5;
+}
+
+.box header{
+	width: 100%;
+	float: left;
+	height: 30px;
+	background: #F5F5F5;
+	line-height: 30px;
+	padding-left: 5px;
+	border-bottom: 1px solid #CCC;
+}
+
+.tabela{
+	width: 100%;
+	float: left;
+	padding: 5px;
+	padding: 10px;
+	border-spacing: 0px;
+}
+
+.tabela thead tr{
+	background: #E1E1E1;
+	padding: 5px;
+	margin: 0;
+}
+
+.tabela thead tr td{
+	padding-left: 5px;
+	background: #E1E1E1;
+	padding: 5px;
+	margin: 0;
+	border: 1px solid #CCC;
+}
+
+.search{
+	float: right;
+	margin-right: 10px;
+}
+
+.search label{
+	color: #FFF;
+	font-size: 13px;
+}
+
+.search input{
+	border: 0;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.logo{
+	float: left;
+	width: 250px;
+	height: 50px;
+}
+
+.acoes{
+	float: left;
+	line-height: 50px;
+}
+
+.acoes a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px;
+	border-right: 1px solid #000;
+}
+
+.menu ul li ul{
+	display: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+
+.menu ul li ul li{
+	width: calc(100% - 20px);
+	float: left;
+	background: #f39c12;
+	color: #FFF;
+}
